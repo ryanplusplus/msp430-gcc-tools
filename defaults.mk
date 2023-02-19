@@ -16,7 +16,6 @@ CPPFLAGS := \
   -Werror \
   -Wfatal-errors \
   -Wcast-qual \
-  -pedantic \
 
 CFLAGS := \
   -std=c11 \
