@@ -1,6 +1,6 @@
 .PHONY: upload
-upload: $(BUILD_DIR)/$(TARGET).elf
-	@mspdebug -q $(MSPDEBUG_DEVICE) "load $<"
+upload: $(BUILD_DIR)/$(TARGET).hex
+	@mspdebug -q $(MSPDEBUG_DEVICE) "prog $<"
 
 .PHONY: erase
 erase:
