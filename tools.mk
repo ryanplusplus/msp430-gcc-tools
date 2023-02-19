@@ -8,5 +8,4 @@ include $(__msp430_gcc_tools_path)quirks.mk
 
 include $(__msp430_gcc_tools_path)gcc/tools.mk
 
-include $(__msp430_gcc_tools_path)upload.mk
-include $(__msp430_gcc_tools_path)debug.mk
+include $(__msp430_gcc_tools_path)mspdebug.mk
