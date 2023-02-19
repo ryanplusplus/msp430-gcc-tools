@@ -6,8 +6,6 @@ TOOLCHAIN_PREFIX := msp430-elf-
 
 include $(__msp430_gcc_tools_path)quirks.mk
 
-$(info -I$(dir $(shell which msp430-elf-gcc))../include)
-
 include $(__msp430_gcc_tools_path)gcc/tools.mk
 
 include $(__msp430_gcc_tools_path)upload.mk
